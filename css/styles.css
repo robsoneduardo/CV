@@ -1,144 +1,161 @@
-.welcome-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
-  background-color: #000;
-  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+
+/* Titulo */ 
+
+#titulo{
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+    
+    
 }
 
-.welcome-section > p {
-  font-size: 3rem;
-  font-weight: 200;
-  font-style: italic;
-  color: #be3144;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.8rem; /* 18px */
-  font-weight: 400;
-  line-height: 1.4;
-  color: #f0f0f0;
-}
-
-h1,
-h2 {
-  font-family: "Raleway", sans-serif;
+.h1-titulo{
+    font-family: "Raleway", sans-serif;
   font-weight: 700;
   text-align: center;
-}
-
-h1 {
   font-size: 6rem;
+  color:white;
+  margin-top: 20%;
 }
 
-h2 {
-  font-size: 4.2rem;
+.p-titulo{
+    color: red;
+    font-size: 3rem;
+    text-align: center;
 }
 
-ul {
-  list-style: none;
+.navbar-brand{
+
+    font-size: 2rem;
+   
 }
 
-a {
-  text-decoration: none;
-  color: #f0f0f0;
+.navbar{
+    
+    color: white;
+    font-weight: bold;
 }
 
-.projects-section {
+.nav-item{
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-item a:hover{
+    color:red !important;
+}
+/* Fim Titulo*/
+
+/* Sobre */ 
+#sobre{
+    text-align: center;
+    
+    background-color:black;
+    color: white
+}
+
+.jumbotron{
+    
+    background-color: gray;
+}
+
+.h1-sobre{
+    
+    
+}
+
+
+
+.p1-sobre{
+    
+    
+    
+}
+
+.imagem-sobre{
+    width: 50%;
+    height: 20vh;
+    margin-top: 5%;
+}
+
+/*Fim sobre*/
+
+/*Projetos*/
+#projetos{
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+    
+}
+
+.h1-projetos{
+    font-family: "Raleway", sans-serif;
+  font-weight: 700;
   text-align: center;
-  padding: 10rem 2rem;
-  background: #45567d;
-}
-
-.projects-section-header {
-  max-width: 640px;
-  margin: 0 auto 6rem auto;
-  border-bottom: 0.2rem solid #f0f0f0;
-}
-
-.contact-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 100%;
-  height: 80vh;
-  padding: 0 2rem;
-  background: #303841;
-}
-
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 4rem;
-  width: 100%;
-  max-width: 1280px;
-  margin: 0 auto;
-  margin-bottom: 6rem;
-}
-
-.project {
-  background: var(--main-gray);
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  border-radius: 2px;
-}
-
-.project-title {
-  font-size: 2rem;
-  padding: 2rem 0.5rem;
-}
-
-.project-image {
-  height: calc(100% - 6.8rem);
-  width: 100%;
-  object-fit: cover;
-}
-
-.contact-section-header > h2 {
   font-size: 6rem;
+  color:white;
+  padding-top: 10%;
+
 }
 
-.contact-section-header > p {
-  font-style: italic;
+/*Fim Projetos*/
+
+/*Contato*/
+#contato{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    font-size: 6rem;
+    background-color: black;
+    
+    
+    
 }
 
-.contact-links {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  max-width: 980px;
-  margin-top: 4rem;
-  flex-wrap: wrap;
+.h1-contato{
+    font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 6rem;
+  color:white;
+  padding-top: 10%;
+
 }
 
-.contact-details {
-  font-size: 2.4rem;
-  text-shadow: 2px 2px 1px #1f1f1f;
+
+.contact-links{
+    margin-top: 5%;
+    font-size: 2rem;
+    
+}
+
+.contact-details{
+    font-size: 2.4rem;
+  color:white;
   transition: transform 0.3s ease-out;
 }
 
 .contact-details:hover {
-  transform: translateY(8px);
-}
+    transform: translateY(8px);
+  }
 
-footer {
-  font-weight: 300;
+#footer{
+    font-weight: 300;
   display: flex;
   justify-content: space-evenly;
   padding: 2rem;
-  background: #303841;
+  background: black;
   border-top: 4px solid #be3144;
 }
 
-footer > p {
-  margin: 2rem;
+.h1-footer{
+
 }
 
-footer i {
-  vertical-align: middle;
+.p-footer{
+    margin: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
 }
