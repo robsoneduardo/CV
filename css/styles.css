@@ -144,7 +144,6 @@
     font-weight: 300;
   display: flex;
   justify-content: space-evenly;
-  padding: 2rem;
   background: black;
   border-top: 4px solid #be3144;
 }
